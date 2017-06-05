@@ -1,157 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
   
-  <title>Page 1 | iOS Coding</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-    <meta name="keywords" content="iOS, Swift, Objective-C, Mac-OS, Apple News" />
-  
-  
-  
-  
-  <meta property="og:type" content="website">
-<meta property="og:title" content="iOS Coding">
-<meta property="og:url" content="http://ioscoding.cn/index.html">
-<meta property="og:site_name" content="iOS Coding">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="iOS Coding">
-  
-    <link rel="alternate" href="/atom.xml" title="iOS Coding" type="application/atom+xml">
-  
-  <link rel="icon" href="/css/images/ioscoding.ico">
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-  <style type="text/css">
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
     
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
-
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
-  <link rel="stylesheet" href="/css/style.css">
-
-  <script src="/js/jquery-3.1.1.min.js"></script>
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.css" >
-  <link rel="stylesheet" href="/css/fashion.css" >
-  <link rel="stylesheet" href="/css/glyphs.css" >
-
-</head>
-
-
-
-  <body>
-
-
-  
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "css/images/pose01.jpg,https://images.unsplash.com/photo-1464306208223-e0b4495a5553?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
-
-
-<header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
-  <div class="clearfix container">
-      <div class="site-branding">
-
-          <h1 class="site-title">
-            
-              <a href="/" title="iOS Coding" rel="home"> iOS Coding </a>
-            
-          </h1>
-          
-          
-            
-          <nav id="main-navigation" class="main-navigation" role="navigation">
-            <a class="nav-open">Menu</a>
-            <a class="nav-close">Close</a>
-
-            <div class="clearfix sf-menu">
-              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">Categories</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">More</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
-                    
-              </ul>
-            </div>
-          </nav>
-
-      </div>
-  </div>
-</header>
-
-
-  <div id="container">
-    <div id="wrap">
-            
-      <div id="content" class="outer">
-        
-          <section id="main">
-  
-    <article id="post-NSUser​Defaults"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2016/08/16/NSUser​Defaults/">NSUserDefaults使用</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2016/08/16/NSUser​Defaults/" class="article-date">
-	  <time datetime="2016-08-16T10:19:10.000Z" itemprop="datePublished">August 16, 2016</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/数据库及存储/">数据库及存储</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="NSUserDefaults官方文档"><a href="#NSUserDefaults官方文档" class="headerlink" title="NSUserDefaults官方文档"></a><a href="https://developer.apple.com/reference/foundation/userdefaults" target="_blank" rel="external">NSUserDefaults官方文档</a></h3><h2 id="NSUserDefaults"><a href="#NSUserDefaults" class="headerlink" title="NSUserDefaults"></a>NSUserDefaults</h2><p>NSUserDefaults 是iOS Foundation 框架提供的一种用于存储管理单例。</p>
+    <entry>
+      <title><![CDATA[NSUserDefaults使用]]></title>
+      <url>/2016/08/16/NSUser%E2%80%8BDefaults/</url>
+      <content type="html"><![CDATA[<h3 id="NSUserDefaults官方文档"><a href="#NSUserDefaults官方文档" class="headerlink" title="NSUserDefaults官方文档"></a><a href="https://developer.apple.com/reference/foundation/userdefaults" target="_blank" rel="external">NSUserDefaults官方文档</a></h3><h2 id="NSUserDefaults"><a href="#NSUserDefaults" class="headerlink" title="NSUserDefaults"></a>NSUserDefaults</h2><p>NSUserDefaults 是iOS Foundation 框架提供的一种用于存储管理单例。</p>
 <h3 id="Tip-1：支持存储的类型"><a href="#Tip-1：支持存储的类型" class="headerlink" title="Tip 1：支持存储的类型"></a>Tip 1：支持存储的类型</h3><ul>
 <li>NSArray</li>
 <li>NSData</li>
@@ -198,57 +52,27 @@ URLForResource:@&quot;DefaultPreferences&quot; withExtension:@&quot;plist&quot;]
 NSDictionary *defaultPrefs = [NSDictionary dictionaryWithContentsOfURL:defaultPrefsFile];
 [[NSUserDefaults standardUserDefaults] registerDefaults:defaultPrefs];
 </code></pre><p>这样做的原因是：默认情况下，应用域是空的，没见键也没有值。当应用第一次设置某项用户偏好设置的值时，相应的值会通过指定的键加入应用域。当通过NSUserDefaults获取某项用户偏好设置的值时，NSUserDefaults会先在应用域中查找，如果找到了值，NSUserDefaults就会返回这个值。如果没有找到，NSUserDefaults就会在注册域中查找并返回默认值。<br>user defaults数据库中其实是由多个层级的域组成的，当你读取一个键值的数据时，NSUserDefaults从上到下透过域的层级寻找正确的值，不同的域有不同的功能，有些域是可持久的，有些域则不行。</p>
-
+]]></content>
       
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/数据库及存储/">数据库及存储</a>
-
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NSUserDefaults/">NSUserDefaults</a></li></ul>
-
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-OAuth 2.0"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
+        <categories>
+            
+            <category> 数据库及存储 </category>
+            
+        </categories>
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2016/02/16/OAuth 2.0/">GCD概要及实现原理</a>
-    </h1>
-  
-
-      </header>
+        
+        <tags>
+            
+            <tag> NSUserDefaults </tag>
+            
+        </tags>
+        
+    </entry>
     
-    <div class="article-meta">
-      
-	<a href="/2016/02/16/OAuth 2.0/" class="article-date">
-	  <time datetime="2016-02-16T03:49:37.000Z" itemprop="datePublished">February 16, 2016</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="https://oauth.net/2/" target="_blank" rel="external">OAuth 2.0</a> 学习笔记。<br>主要参考资料为<a href="http://www.rfcreader.com/#rfc6749" target="_blank" rel="external">RFC 6749</a>.</p>
+    <entry>
+      <title><![CDATA[GCD概要及实现原理]]></title>
+      <url>/2016/02/16/OAuth%202.0/</url>
+      <content type="html"><![CDATA[<p><a href="https://oauth.net/2/" target="_blank" rel="external">OAuth 2.0</a> 学习笔记。<br>主要参考资料为<a href="http://www.rfcreader.com/#rfc6749" target="_blank" rel="external">RFC 6749</a>.</p>
 <h3 id="OAuth协议"><a href="#OAuth协议" class="headerlink" title="OAuth协议"></a>OAuth协议</h3><p> OAuth(开放授权)是一个开放标准。允许第三方网站在用户授权的前提下访问在用户在服务商那里存储的各种信息。而这种授权无需将用户提供用户名和密码提供给该第三方网站。 OAuth允许用户提供一个令牌给第三方网站，一个令牌对应一个特定的第三方网站，同时该令牌只能在特定的时间内访问特定的资源。</p>
 <p> OAuth在”客户端”与”服务提供商”之间，设置了一个授权层（authorization layer）。”客户端”不能直接登录”服务提供商”，只能登录授权层，以此将用户与客户端区分开来。”客户端”登录授权层所用的令牌（token），与用户的密码不同。用户可以在登录的时候，指定授权层令牌的权限范围和有效期。<br>“客户端”登录授权层以后，”服务提供商”根据令牌的权限范围和有效期，向”客户端”开放用户储存的资料。</p>
 <h3 id="OAuth的原理和授权流程"><a href="#OAuth的原理和授权流程" class="headerlink" title="OAuth的原理和授权流程"></a>OAuth的原理和授权流程</h3><p> OAuth的认证和授权的过程中涉及的三方包括：</p>
@@ -290,57 +114,27 @@ NSDictionary *defaultPrefs = [NSDictionary dictionaryWithContentsOfURL:defaultPr
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">*</div><div class="line">     +---------+                                  +---------------+</div><div class="line">     |         |                                  |               |</div><div class="line">     |         |&gt;--(A)- Client Authentication ---&gt;| Authorization |</div><div class="line">     | Client  |                                  |     Server    |</div><div class="line">     |         |&lt;--(B)---- Access Token ---------&lt;|               |</div><div class="line">     |         |                                  |               |</div><div class="line">     +---------+                                  +---------------+</div><div class="line"></div><div class="line">                     Figure 6: Client Credentials Flow</div></pre></td></tr></table></figure>
 <p>它的步骤如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">（A）客户端向认证服务器进行身份认证，并要求一个访问令牌。</div><div class="line">（B）认证服务器确认无误后，向客户端提供访问令牌。</div></pre></td></tr></table></figure>
-<h4 id="注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。"><a href="#注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。" class="headerlink" title="注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。"></a>注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。</h4>
+<h4 id="注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。"><a href="#注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。" class="headerlink" title="注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。"></a>注意：如果用户访问的时候，客户端的”访问令牌”已经过期，则需要使用”更新令牌”申请一个新的访问令牌。</h4>]]></content>
       
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
-
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GCD/">GCD</a></li></ul>
-
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-深入理解Block"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
+        <categories>
+            
+            <category> 网络和线程 </category>
+            
+        </categories>
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2015/08/16/深入理解Block/">深入理解Block</a>
-    </h1>
-  
-
-      </header>
+        
+        <tags>
+            
+            <tag> GCD </tag>
+            
+        </tags>
+        
+    </entry>
     
-    <div class="article-meta">
-      
-	<a href="/2015/08/16/深入理解Block/" class="article-date">
-	  <time datetime="2015-08-16T10:49:10.000Z" itemprop="datePublished">August 16, 2015</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Block-简介"><a href="#Block-简介" class="headerlink" title="Block 简介"></a>Block 简介</h2><p>Mac OS X系统10.4及其iOS 4.0后引入了闭包的概念，这项语言特性是作为扩展而加入GCC编译器的。在Foundation框架中大量使用了Block。<br>块就是一个实现某个功能的函数闭包，这个函数闭包可以带有参数，也可以没有参数，可以有返回值也可以没有返回值者，用符号’^’来表示。块在声明的范围内，可以调用块外部的全局变量和局部变量。</p>
+    <entry>
+      <title><![CDATA[深入理解Block]]></title>
+      <url>/2015/08/16/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Block/</url>
+      <content type="html"><![CDATA[<h2 id="Block-简介"><a href="#Block-简介" class="headerlink" title="Block 简介"></a>Block 简介</h2><p>Mac OS X系统10.4及其iOS 4.0后引入了闭包的概念，这项语言特性是作为扩展而加入GCC编译器的。在Foundation框架中大量使用了Block。<br>块就是一个实现某个功能的函数闭包，这个函数闭包可以带有参数，也可以没有参数，可以有返回值也可以没有返回值者，用符号’^’来表示。块在声明的范围内，可以调用块外部的全局变量和局部变量。</p>
 <pre><code>void (^someBlock) () = ^{
     //A simple block
     //Implementation: some code
@@ -408,57 +202,27 @@ BLOCKSOME block = ^(bool flag, int value) {
 <pre><code>__weak  ViewController *wself = self;
 </code></pre><p>定义一个wself变量并加上__weak修饰符，在Block代码块中，所有需要self的地方都用wself来替代。这样就不会增加引用计数，所以Block持有self对象也就不会造成循环引用，从而造成内存泄漏。</p>
 <p>参考文章：<br><a href="http://blog.devtang.com/2013/07/28/a-look-inside-blocks/" target="_blank" rel="external">http://blog.devtang.com/2013/07/28/a-look-inside-blocks/</a></p>
-
+]]></content>
       
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
-
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Block/">Block</a></li></ul>
-
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-GCD概要及实现原理"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
+        <categories>
+            
+            <category> 网络和线程 </category>
+            
+        </categories>
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2015/07/16/GCD概要及实现原理/">GCD概要及实现原理</a>
-    </h1>
-  
-
-      </header>
+        
+        <tags>
+            
+            <tag> Block </tag>
+            
+        </tags>
+        
+    </entry>
     
-    <div class="article-meta">
-      
-	<a href="/2015/07/16/GCD概要及实现原理/" class="article-date">
-	  <time datetime="2015-07-16T02:49:43.000Z" itemprop="datePublished">July 16, 2015</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="GCD"><a href="#GCD" class="headerlink" title="GCD"></a>GCD</h2><p>Grand Central Dispatch（GCD）是Apple开发的一个多核编程的解决方法。该方法在MacOSX10.6雪豹中首次推出，并随后被引入到了iOS4.0中。GCD是一个替代诸如NSThread, NSOperationQueue等技术的很高效和强大的技术。GCD能够帮助我们使用非常简洁高效的方法实现复杂繁琐的多线程编程。</p>
+    <entry>
+      <title><![CDATA[GCD概要及实现原理]]></title>
+      <url>/2015/07/16/GCD%E6%A6%82%E8%A6%81%E5%8F%8A%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/</url>
+      <content type="html"><![CDATA[<h2 id="GCD"><a href="#GCD" class="headerlink" title="GCD"></a>GCD</h2><p>Grand Central Dispatch（GCD）是Apple开发的一个多核编程的解决方法。该方法在MacOSX10.6雪豹中首次推出，并随后被引入到了iOS4.0中。GCD是一个替代诸如NSThread, NSOperationQueue等技术的很高效和强大的技术。GCD能够帮助我们使用非常简洁高效的方法实现复杂繁琐的多线程编程。</p>
 <p>下面的例子列举了简单的异步线程处理，在后台处理完耗时的程序之后，在主线程更新UI。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">dispatch_async(queue, ^&#123;</div><div class="line">      /*</div><div class="line">       * ...</div><div class="line">       * 长时间处理的Code</div><div class="line">       */</div><div class="line">       </div><div class="line">       //处理结束，主线程更新UI</div><div class="line">       // 使用dispatch_get_main_queue() 获得主线程</div><div class="line">       dispatch_async(dispatch_get_main_queue(), ^&#123;</div><div class="line">           // ... code</div><div class="line">           // 执行需要在主线程执行的更新UI代码</div><div class="line">       &#125;);</div><div class="line">   &#125;);</div></pre></td></tr></table></figure>
 <hr>
@@ -521,57 +285,27 @@ BLOCKSOME block = ^(bool flag, int value) {
 <li>《Effective Objective-C 2.0》</li>
 <li>《<a href="https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW1" target="_blank" rel="external">ConcurrencyProgrammingGuide</a>》</li>
 </ul>
-
+]]></content>
       
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
-
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GCD/">GCD</a></li></ul>
-
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-Sqlite3 常用语句"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
+        <categories>
+            
+            <category> 网络和线程 </category>
+            
+        </categories>
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2014/07/16/Sqlite3 常用语句/">Sqlite常用语句</a>
-    </h1>
-  
-
-      </header>
+        
+        <tags>
+            
+            <tag> GCD </tag>
+            
+        </tags>
+        
+    </entry>
     
-    <div class="article-meta">
-      
-	<a href="/2014/07/16/Sqlite3 常用语句/" class="article-date">
-	  <time datetime="2014-07-16T06:49:43.000Z" itemprop="datePublished">July 16, 2014</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Creat-Table"><a href="#Creat-Table" class="headerlink" title="Creat Table"></a>Creat Table</h2><p>CREATE TABLE 语句用于在任何给定的数据库创建一个新表。创建基本表，涉及到命名表、定义列及每一列的数据类型</p>
+    <entry>
+      <title><![CDATA[Sqlite常用语句]]></title>
+      <url>/2014/07/16/Sqlite3%20%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/</url>
+      <content type="html"><![CDATA[<h2 id="Creat-Table"><a href="#Creat-Table" class="headerlink" title="Creat Table"></a>Creat Table</h2><p>CREATE TABLE 语句用于在任何给定的数据库创建一个新表。创建基本表，涉及到命名表、定义列及每一列的数据类型</p>
 <pre><code> CREATE TABLE database_name.table_name(
 column1 datatype  PRIMARY KEY(one or more columns),
 .....
@@ -674,350 +408,49 @@ WHERE [ conditions ]
 GROUP BY column1, column2
 HAVING [ conditions ]
 ORDER BY column1, column2
-</code></pre>
+</code></pre>]]></content>
       
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/网络和线程/">网络和线程</a>
-
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Sqlite/">Sqlite</a></li></ul>
-
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-
-
-</section>
-          <aside id="sidebar">
-  
-    <div style="margin: 20px 0;">
-	<div id="search-form-wrap">
-
-    <form class="search-form">
-        <label style="width: 72%;">
-            <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" Search…" value="" name="s" title="Search for:">
-        </label>
-        <input type="submit" class="search-form-submit" value="Search">
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-<script src="/js/insight.js"></script>
-
-</div>
-</div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Connect With Us</h3>
-    <div class="widget widget_athemes_social_icons">
-
-    	<ul class="clearfix widget-social-icons">   
-    	
-   			<li><a href="https://github.com/shujucn" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="null" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="null" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="null" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="null" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="null" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-
-   		
-   		</ul>
-
-
-   		<!--
-   		<ul class="clearfix widget-social-icons">   		
-   		<li class="widget-si-twitter"><a href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
-		<li class="widget-si-facebook"><a href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
-			<li class="widget-si-gplus"><a href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
-			<li class="widget-si-pinterest"><a href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
-			<li class="widget-si-flickr"><a href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
-			<li class="widget-si-instagram"><a href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
-		</ul> -->
-
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget_athemes_tabs">
-    <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>Recent Posts</a></li>
-    </ul>
-    <div class="widget">
-      <ul>
+        <categories>
+            
+            <category> 网络和线程 </category>
+            
+        </categories>
         
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2016/08/16/NSUser​Defaults/">NSUserDefaults使用</a></h6>
-              <span>August 16, 2016</span>
-            </div>
-
-          </li>
         
-          <li class="clearfix">
-
+        <tags>
             
-              <div class="widget-entry-summary" style="margin: 0;">
+            <tag> Sqlite </tag>
             
-
-              <h6 style="margin: 0;"><a href="/2016/02/16/OAuth 2.0/">GCD概要及实现原理</a></h6>
-              <span>February 16, 2016</span>
-            </div>
-
-          </li>
+        </tags>
         
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2015/08/16/深入理解Block/">深入理解Block</a></h6>
-              <span>August 16, 2015</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2015/07/16/GCD概要及实现原理/">GCD概要及实现原理</a></h6>
-              <span>July 16, 2015</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2014/07/16/Sqlite3 常用语句/">Sqlite常用语句</a></h6>
-              <span>July 16, 2014</span>
-            </div>
-
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
+    </entry>
+    
+  
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/数据库及存储/">数据库及存储</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网络和线程/">网络和线程</a><span class="category-list-count">4</span></li></ul>
-    </div>
-  </div>
-
-
-  
+    <entry>
+      <title><![CDATA[about]]></title>
+      <url>/about/index.html</url>
+      <content type="html"></content>
+    </entry>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">More</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Block/">Block</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GCD/">GCD</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NSUserDefaults/">NSUserDefaults</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sqlite/">Sqlite</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
+    <entry>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<hr>
+<p>title: categories</p>
+<h2 id="date-2017-05-22-11-46-49"><a href="#date-2017-05-22-11-46-49" class="headerlink" title="date: 2017-05-22 11:46:49"></a>date: 2017-05-22 11:46:49</h2>]]></content>
+    </entry>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/Block/" style="font-size: 10px;">Block</a> <a href="/tags/GCD/" style="font-size: 20px;">GCD</a> <a href="/tags/NSUserDefaults/" style="font-size: 10px;">NSUserDefaults</a> <a href="/tags/Sqlite/" style="font-size: 10px;">Sqlite</a>
-    </div>
-  </div>
-
-  
+    <entry>
+      <title><![CDATA[tag1]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"><![CDATA[<hr>
+<p>title: tag2</p>
+<h2 id="date-2017-05-22-11-46-21"><a href="#date-2017-05-22-11-46-21" class="headerlink" title="date: 2017-05-22 11:46:21"></a>date: 2017-05-22 11:46:21</h2><hr>
+<p>title: tag3</p>
+<h2 id="date-2017-05-22-11-46-21-1"><a href="#date-2017-05-22-11-46-21-1" class="headerlink" title="date: 2017-05-22 11:46:21"></a>date: 2017-05-22 11:46:21</h2>]]></content>
+    </entry>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
   
-</aside>
-        
-      </div>
-
-    </div>
-    <!-- <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tags</a>
-  
-    <a href="/about" class="mobile-nav-link">About</a>
-  
-</nav> -->
-    <footer id="footer" class="site-footer">
-  
-
-  <div class="clearfix container">
-      <div class="site-info">
-	      &copy; 2017 iOS Coding All Rights Reserved.
-        
-            <span id="busuanzi_container_site_uv">
-              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
-              本站总访问量<span id="busuanzi_value_site_pv"></span>次
-            </span>
-          
-      </div>
-      <div class="site-credit">
-        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
-      </div>
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-
-
-    <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
-    
-    
-</script>
-    
-<div style="display: none;">
-  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-</div>
-
-<!-- mathjax config similar to math.stackexchange -->
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-<script src="/js/bootstrap.js"></script>
-<script src="/js/main.js"></script>
-
-
-
-
-
-
-
-
-	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-	</script>
-
-
-
-
-
-
-  </div>
-
-  <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js" async=""></script>
-</body>
-</html>
+</search>
